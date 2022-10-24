@@ -1,0 +1,202 @@
+// blue timer css
+.home_headline_el {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+.cd_container {
+  background-image: linear-gradient(to right, #00769e, #008fbf);
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.cd_wrapper {
+  display: flex;
+  align-items: center;
+}
+.cd_text {
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 12px;
+  margin-left: 8px;
+  color: #fff;
+  margin-top: 20px;
+}
+.cd_box_wrapper {
+  display: flex;
+}
+.cd_box {
+  padding: 3px 6px;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.cd_box_text {
+  margin-top: -20px;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: -5px;
+}
+.cd_colon {
+  display: inline-block;
+  font-size: 27px;
+  font-weight: 300;
+  color: #fff;
+}
+.cd-bottom-text {
+  width: 380px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.5;
+  margin-top: 8px;
+  color: rgb(74, 72, 72);
+}
+
+#heroBannerCopy #heroBannerCta {
+  margin-top: 0px !important;
+  margin-left: 15px;
+}
+#tpDesktop{
+    margin-left: 22px;
+
+}
+
+
+// black timer css
+.timer_fcontainer {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+}
+.timer_content {
+  background-color: rgb(47, 45, 45);
+  padding: 5px 15px;
+  padding-top: 18px;
+  border-radius: 8px;
+}
+.timer_flex_3 {
+  display: flex;
+  align-items: center;
+}
+#timer_ftext {
+  flex: 60%;
+  padding-top: 10px;
+}
+#timer_ftext p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #e4dcbc;
+}
+#timer_fclock {
+  flex: 23%;
+}
+#timer_fBtn {
+  flex: 12%;
+}
+.timer_child_el {
+  margin-top: 0;
+}
+#clock_title p{
+  font-size: 16px;
+  font-weight:700;
+  color: #e4dcbc;
+  text-align: left;
+  margin-bottom: 26px;
+}
+#clock_digit {
+  display: flex;
+  align-items: center;
+  height: 16px;
+}
+#clock_label {
+  display: flex;
+  justify-content: start;
+  gap: 35px;
+  color: #fff;
+}
+.cd_fbox {
+  padding: 6px 8px;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 900 !important;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+}
+
+.cd_fcolon {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.timer_footer {
+  text-align: center;
+}
+.timer_footer p{
+  font-weight: 700 !important;
+  font-size: 14px;
+  margin-top: 10px;
+  
+}
+
+#timer_fBtn {
+  padding: 8px 12px;
+  display: inline-block;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #fff;
+  background-color: rgb(232, 23, 23);
+}
+
+@media only screen and (max-width: 600px) {
+  .timer_fcontainer{
+    width: 95%;
+  }
+  .timer_content{
+    padding-top: 0px;
+  }
+  .timer_flex_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #timer_ftext p {
+    font-size: 44pxpx;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  #clock_title p{
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 15px;
+  }
+  #timer_fBtn{
+    margin-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .cd_fbox{
+    padding: 3px 10px;
+    font-size: 32px;
+
+  }
+  #clock_label {
+    justify-content: center;
+    margin-top: 15px;
+    gap:40px;
+    color: #fff;
+  }
+
+
+}
